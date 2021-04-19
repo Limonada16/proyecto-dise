@@ -121,6 +121,17 @@ img{
         font-size: 90px;
         line-height: 120px; 
     }
+    .main-section, .section_first{
+        justify-content: center;
+        align-items: center;
+    }
+    .li-footer span{
+        visibility: hidden;
+    }
+    .li-footer{
+        width: 50px;
+        font-size: 25px;
+    }
     
 }
 @media (min-width:767px) and (max-width: 1023px) {
@@ -158,6 +169,9 @@ img{
         justify-content: center;
         align-items: center;
     }
+    .li-footer span{
+        margin-left: 10px;
+    }
     
 }
 @media (min-width:1024px) {
@@ -177,6 +191,9 @@ img{
     }
     .li-footer{
         font-size: 25px;
+    }
+    .li-footer span{
+        margin-left: 10px;
     }
     
 }
