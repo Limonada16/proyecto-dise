@@ -60,6 +60,7 @@ a:hover{
     flex-direction: column;
 }
 .p-sectionfirst{
+    padding: 9px 0px;
     width: 150px;
     text-align: center;
     border-radius: 9px;
@@ -119,7 +120,8 @@ img{
     }
     h1{
         font-size: 90px;
-        line-height: 120px; 
+        line-height: 120px;
+        text-align: center; 
     }
     .main-section, .section_first{
         justify-content: center;
